@@ -1,0 +1,47 @@
+confirmonquit: false
+git:
+  autofetch: true
+  merging:
+    manualcommit: false
+  skiphookprefix: WIP
+gui:
+  commitlength:
+    show: true
+  mouseevents: true
+  scrollheight: 2
+  scrollpastbottom: true
+  theme:
+    activebordercolor:
+    - cyan
+    - bold
+    inactivebordercolor:
+    - white
+    lighttheme: false
+    optionstextcolor:
+    - blue
+reporting: "off"
+splashupdatesindex: 0
+startuppopupversion: 1
+keybinding:
+  universal:
+    prevItem-alt: 'u'
+    nextItem-alt: 'e'
+    prevBlock-alt: 'n'
+    nextBlock-alt: 'i'
+    nextMatch: '='
+    prevMatch: '-'
+    new: 'k'
+    edit: 'o'
+    openFile: 'O'
+    scrollUpMain-alt1: 'U'
+    scrollDownMain-alt1: 'E'
+    scrollUpMain-alt2: '<c-u>'
+    scrollDownMain-alt2: '<c-e>'
+  files:
+    ignoreFile: 'I'
+  commits:
+    moveDownCommit: '<c-e>'
+    moveUpCommit: '<c-u>'
+    toggleDiffCommit: 'l'
+  branches:
+    viewGitFlowOptions: 'I'
