@@ -56,4 +56,3 @@ find-in-file() {
 }
 zle -N find-in-file
 bindkey '^f' find-in-file
-
